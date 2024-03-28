@@ -1,0 +1,138 @@
+No valid project found in C:/Users/andre/Documents/UWMadison/JR1/ECE353/mtb_shared.
+Checking if remote manifest is accessible...
+Getting manifests from remote server...
+
+Found C:/Users/andre/.modustoolbox/manifest.loc
+Found user super-manifest(s):
+https://raw.githubusercontent.com/rakshith-mb/ece-353-mtb-super-manifest/main/ece-353-mtb-super-manifest.xml
+Processing super-manifest https://raw.githubusercontent.com/rakshith-mb/ece-353-mtb-super-manifest/main/ece-353-mtb-super-manifest.xml...
+Premature end of document.
+Processing super-manifest https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml...
+One or more elements/attributes was ignored from manifest https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml. Run using the --verbose flag for additional details.
+Successfully acquired the information.
+Reading project (C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app) information...
+Successfully acquired project information.
+
+Click "Update" to make these changes on the project:
+
+abstraction-rtos: remove https://github.com/cypresssemiconductorco/abstraction-rtos 1.7.4 release shared
+clib-support: remove https://github.com/cypresssemiconductorco/clib-support 1.4.2 release shared
+freertos: remove https://github.com/cypresssemiconductorco/freertos 10.5.0 release shared
+INFO - Warning: Multiple versions of "core-make" requested. Keeping version "latest-v1.X" and discarding version "release-v1.9.0".
+Updating project...
+C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/abstraction-rtos.mtb was removed
+C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/clib-support.mtb was removed
+C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/deps/freertos.mtb was removed
+Running "make getlibs"...
+D:/ModusToolbox/tools_2.4/modus-shell/bin/make.exe getlibs CY_TOOLS_PATHS=D:/ModusToolbox/tools_2.4 QUICK_MODE=1
+Tools Directory: D:/ModusToolbox/tools_2.4
+ECE353-BSP.mk: ./libs/TARGET_ECE353-BSP/ECE353_BSP.mk
+
+==============================================================================
+= Importing libraries =
+==============================================================================
+Git is git version 2.33.0, found at /usr/bin/git
+
+Searching application directory (.mtb)...
+Found 9 .mtb file(s)
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/deps/TARGET_ECE353-BSP.mtb"
+warning: redirecting to https://git.doit.wisc.edu/engr/ece/cmpe_courses/ece-353-public-share/TARGET_ECE353-BSP.git/
+WARNING: Uncommitted/Untracked files detected in "/cygdrive/c/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/TARGET_ECE353-BSP".
+        Save your work in source control before updating this library.
+        Skipping current reference...
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/deps/retarget-io.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/capsense.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/core-lib.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/core-make.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/mtb-hal-cat1.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/mtb-pdl-cat1.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/psoc6cm0p.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/recipe-make-cat1a.mtb"
+Libraries processed.
+Created file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/mtb.mk".
+
+
+==============================================================================
+WARNING: Uncommitted/Untracked files detected in "/cygdrive/c/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/TARGET_ECE353-BSP".
+        Save your work in source control before updating this library.
+        Skipping current reference...
+
+==============================================================================
+= Import complete =
+==============================================================================
+
+==============================================================================
+
+Successfully updated the project.
+
+==============================================================================
+
+
+Reading project (C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app) information...
+Successfully acquired project information.
+Click "Update" to make these changes on the project:
+
+freertos: add https://github.com/cypresssemiconductorco/freertos 10.5.0 release shared
+abstraction-rtos: add https://github.com/cypresssemiconductorco/abstraction-rtos 1.7.4 release shared (required by "freertos release-v10.5.0")
+clib-support: add https://github.com/cypresssemiconductorco/clib-support 1.4.2 release shared (required by "freertos release-v10.5.0")
+INFO - Warning: Multiple versions of "core-make" requested. Keeping version "latest-v1.X" and discarding version "release-v1.9.0".
+Updating project...
+C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/abstraction-rtos.mtb was added
+C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/clib-support.mtb was added
+C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/deps/freertos.mtb was added
+Running "make getlibs"...
+D:/ModusToolbox/tools_2.4/modus-shell/bin/make.exe getlibs CY_TOOLS_PATHS=D:/ModusToolbox/tools_2.4 QUICK_MODE=1
+Tools Directory: D:/ModusToolbox/tools_2.4
+ECE353-BSP.mk: ./libs/TARGET_ECE353-BSP/ECE353_BSP.mk
+
+==============================================================================
+= Importing libraries =
+==============================================================================
+Git is git version 2.33.0, found at /usr/bin/git
+
+Searching application directory (.mtb)...
+Found 12 .mtb file(s)
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/deps/TARGET_ECE353-BSP.mtb"
+warning: redirecting to https://git.doit.wisc.edu/engr/ece/cmpe_courses/ece-353-public-share/TARGET_ECE353-BSP.git/
+WARNING: Uncommitted/Untracked files detected in "/cygdrive/c/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/TARGET_ECE353-BSP".
+        Save your work in source control before updating this library.
+        Skipping current reference...
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/deps/freertos.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/deps/retarget-io.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/abstraction-rtos.mtb"
+WARNING: Uncommitted/Untracked files detected in "../mtb_shared/abstraction-rtos/release-v1.7.4".
+        Save your work in source control before updating this library.
+        Skipping current reference...
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/capsense.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/clib-support.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/core-lib.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/core-make.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/mtb-hal-cat1.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/mtb-pdl-cat1.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/psoc6cm0p.mtb"
+    Processing file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/recipe-make-cat1a.mtb"
+Libraries processed.
+Created file "C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/mtb.mk".
+
+
+==============================================================================
+WARNING: Uncommitted/Untracked files detected in "/cygdrive/c/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app/libs/TARGET_ECE353-BSP".
+        Save your work in source control before updating this library.
+        Skipping current reference...
+WARNING: Uncommitted/Untracked files detected in "../mtb_shared/abstraction-rtos/release-v1.7.4".
+        Save your work in source control before updating this library.
+        Skipping current reference...
+
+==============================================================================
+= Import complete =
+==============================================================================
+
+==============================================================================
+
+Successfully updated the project.
+
+==============================================================================
+
+
+Reading project (C:/Users/andre/Documents/UWMadison/JR1/ECE353/ece353-mtb-team27-submit-app) information...
+Successfully acquired project information.
